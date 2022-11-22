@@ -1,0 +1,5 @@
+creation_rules:
+  - path_regex: secrets\/.*yaml$
+    key_groups:
+      - kms:
+          - arn: arn:aws:kms:us-east-1:010279360435:key/4f1c449b-caed-4723-a19d-f51359507843
