@@ -6,13 +6,18 @@ Install sops
    brew install sops
    ```
 
-# Decrypting keys
+# Encrypting the keys
 To encrypt the keys run the following command (only 1st time)
    ```
    sops -e --in-place secrets/credentials.yaml
    ```
 
-# Decrypting keys
+# Decrypting the keys
+To decrypt the keys run the following command
+   ```
+   sops -d secrets/credentials.yaml
+   ```
+# Editing the keys
 To decrypt the keys run the following command
    ```
    sops secrets/credentials.yaml
