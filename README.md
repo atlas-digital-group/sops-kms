@@ -1,9 +1,16 @@
 # sops-kms
+[sops](https://github.com/mozilla/sops) is an editor of encrypted files that supports YAML, JSON and
+BINARY formats and encrypts with AWS KMS and PGP
 
 # Prerequisites
 Install sops
    ```
    brew install sops
+   ```
+# Cloning the repository
+Clone the repository by executing the following command
+   ```
+   git@github.com:atlas-digital-group/sops-kms.git
    ```
 
 # Encrypting the keys
